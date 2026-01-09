@@ -31,17 +31,82 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@700&display=swap" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    
+    <style>
+        /* Navigation Bar Styles */
+        .navbar {
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 1rem 0;
+        }
+        
+        .navbar-brand {
+            font-family: 'Rubik', sans-serif;
+            font-weight: 700;
+            color: #333;
+            font-size: 1.25rem;
+        }
+        
+        .navbar-nav .nav-link {
+            font-family: 'Roboto', sans-serif;
+            color: #555;
+            margin: 0 0.5rem;
+            transition: color 0.3s;
+        }
+        
+        .navbar-nav .nav-link:hover {
+            color: #007bff;
+        }
+        
+        .navbar-toggler {
+            border: none;
+        }
+        
+        .navbar-toggler:focus {
+            outline: none;
+            box-shadow: none;
+        }
+    </style>
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/lcw-icon.png" alt="LCW" height="30" class="d-inline-block align-top mr-2">
+                Learner Credential Wallet
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pilot.html">Pilot Program</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/digitalcredentials/learner-credential-wallet" target="_blank">GitHub</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
     <!-- Learner Credential Wallet content-->
-    <header id="Learner Credential Wallet" class="lcw">
+    <header id="Learner Credential Wallet" class="lcw" style="padding-top: 80px;">
         <div class="container">
                     <div class="text-container text-center">
                         <img class="lcw-icon mt-4" src="images/lcw-icon.png" alt="Learner Credential Wallet icon consisting of folders">
                         <p class="title text-center">Gillian's Learner Credential Wallet</p>
                         <h2 class="pt-2 subtitle">A place to store your learner credentials</h2>
-                        <a href="https://apps.apple.com/app/learner-credential-wallet/id1590615710?"><img class="ios-icon pt-2" src="images/ios-icon.svg" alt="Download on the App Store"></a>
+                        <a href="https://apps.apple.com/app/learner-credential-wallet/id1590615710?"><img class="ios-icon pt-2" src="images/lcw-icon.svg" alt="Download on the App Store"></a>
                         <!--<button type="button" class="btn btn-secondary btn-lg mt-3" disabled><h3 class="mb-0">Coming Soon</h3></button>-->
                         <a href="https://play.google.com/store/apps/details?id=app.lcw&"><img class="android-icon pt-2" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
                         <p class="text-center pt-4">Learner Credential Wallet is an <a href="https://github.com/digitalcredentials/learner-credential-wallet">open source</a> mobile wallet developed by the <a href="https://digitalcredentials.mit.edu">Digital Credentials Consortium</a>, a network of leading international universities designing an open infrastructure for academic credentials.</p>
@@ -67,6 +132,7 @@
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
 </body>
 </html>
+
 
 
 
