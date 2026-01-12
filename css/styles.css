@@ -154,3 +154,20 @@ a:hover {
 }
 /* end of min-width 500px */
 
+.checkmark-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.checkmark-list li {
+  padding-left: 2em;
+  position: relative;
+}
+
+.checkmark-list li::before {
+  content: "✅";
+  position: absolute;
+  left: 0;
+}
+
+
