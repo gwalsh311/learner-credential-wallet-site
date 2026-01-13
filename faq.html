@@ -110,59 +110,29 @@
         <div class="container mt-5">
             <div class="text-container text-center">
                 <h1 class="pb-2 text-center">Learner Credential Wallet Frequently Asked Questions</h1>
-                
-                <h2 class="mt-4 mb-3 text-center"><a name="lcw"></a>What is the Learner Credential Wallet?</h2>
-                <p class="p-small">The Learner Credential Wallet is an <a href="https://github.com/digitalcredentials/learner-credential-wallet">open source</a> mobile wallet developed by the <a href="https://digitalcredentials.mit.edu">Digital Credentials Consortium</a>, a network of leading international universities designing an open infrastructure for academic credentials.</p>
-                
-                <h2 class="mt-4 mb-3 text-center"><a name="lcw-pilot"></a>What is the Learner Credential Wallet Pilot?</h2>
-                <p class="p-small">Please read about the <a href="pilot.html">Learner Credential Wallet Pilot</a>.</p>
-                
-                <h2 class="mt-4 mb-3 text-center"><a name="public-link"></a>What happens when I "Create Public Link"?</h2>
-                <p class="p-small">Creating a Public Link is a voluntary process. We provide this functionality so you may choose to share a credential from your wallet to anyone with the link.</p>
-                <p class="p-small">Creating a public link will generate a webpage to display the contents of a credential on the <a href="https://verifierplus.org/">VerifierPlus</a> website managed by the <a href="https://digitalcredentials.mit.edu/">Digital Credentials Consortium</a>. You are fully in control of how and with whom you share this link.</p>
-                <p class="p-small">The Public Link is governed by the <a href="https://verifierplus.org/">VerifierPlus</a> <a href="https://verifierplus.org/terms">Terms and Conditions of Use</a> and <a href="https://verifierplus.org/privacy">Privacy Policy</a>.</p>
-                <p class="p-small">All Public Links are set to automatically expire 1 year after creation. Please note that a public link expiration date is not the same as the expiration date for your credential.</p>
-
-                <h2 class="mt-4 mb-3 text-center"><a name="public-link-more"></a>What can others do with a "Public Link"?</h2>
-                <p class="p-small">Anyone with the link will be able to view the credential that is shared via a "Public Link". We recommend you consider where, to whom and how frequently you share a "Public Link".</p>
-
-                <h2 class="mt-4 mb-3 text-center"><a name="public-link-unshare"></a>I want to stop sharing a "Public Link", how do I do so?</h2>
-                <p class="p-small">You manage "Public Links" from individual credentials in Learner Credential Wallet. On the home screen you can see which credentials have a "Public Link" because they have a "Public" tag. Navigate to the credential with a "Public Link" you want to unshare. Select the three dot menu in the upper right hand portion of the screen. Select "Share" and then select "Unshare". After confirming you want to unshare the link, the link will be removed from VerifierPlus and no longer be viewable. <a href="https://verifierplus.org/">VerifierPlus</a> will remove the details of the credential. You can choose to "Create Public Link" again in the future and Learner Credential Wallet will create a new link.</p>
-                
-                <h2 class="mt-4 mb-3 text-center"><a name="add-to-linkedin"></a>What is "Add to LinkedIn Profile"?</h2>
-                <p class="p-small">You may want to share your credential on your LinkedIn Profile. We provide a shortcut to help you do so. Adding a credential to your LinkedIn Profile from Learner Credential Wallet also requires you to "Create Public Link" as that will allow visitors to your LinkedIn Profile to view the credential.</p>
-
-                <p class="p-small">Note: Before you can add a Public Link created through the Learner Credential Wallet to your LinkedIn Profile, you must:</p>
-                
-                <div style="text-align: left;">
+                <h2 class="pb-2">What is the Digital Credentials Consortium and why did we develop the Learner Credential Wallet (LCW)?</h2>
+                <p class="p-small">The Digital Credentials Consortium (DCC) is a global network of postsecondary education institutions collaborating to advance the understanding and use of portable, verifiable, digital credentials in higher education through open source technology development and leadership, research and advocacy. The DCC developed the LCW with support from a grant from the US Department of Education. The open source wallet application was designed as a reference implementation as a tool for proving the concept of interoperable, verifiable credentials. For more information visit the <a href="history.html">History</a> section and the <a href="https://digitalcredentials.mit.edu/">DCC website</a>. </p>
+                <h2 class="pb-2">What mobile devices are compatible with the LCW?</h2>
+                <p class="p-small">The LCW is compatible with iPhone devices running iOS 15.1 or higher and Android devices running version 15 or higher. Devices running older versions of these operating systems may experience software issues</p>
+                <h2 class="pb-2">Can I use the LCW without the internet?</h2>
+                <p class="p-small">You can display saved credentials on your device without the internet. However, while offline you will not be able to add new credentials or create a public link to share credentials.</p>
+                <h2 class="pb-2">I’ve forgotten my password. How can I access my credentials?</h2>
+                <p class="p-small">As the LCW does not store and cannot access your account information or password. This information is saved locally to your mobile device. We recommend that you make a note of your password and save it in a secure location. We also strongly recommend that you backup your credentials. Please see the section entitled “How do I back up my wallet?”.</p>
+                <h2 class="pb-2">How is the LCW different from the Apple or Google wallet? Can I store my credentials there?</h2>
+                <p class="p-small">The LCW only stores credentials that have been issued in alignment with certain web standards — W3C Verifiable Credentials (VCs) and Open Badges 3.0 (OBv3). For more information on what this means, see About W3C Verifiable Credentials and Open Badges 3.0. Popular mobile wallets including Apple and Google wallet do not currently accept VCs or OBv3s so you cannot store these credentials there at this time. We hope that this changes in the future so that you can use the wallet that is most convenient for you. </p>
+                <h2 class="pb-2">How do I know if my credential will be accepted by the LCW?</h2>
+                <p class="p-small">Ideally, the issuer (the education institution or badging platform) will clearly indicate that your credential has been created in the OBv3 format. Look for information that says your credential has been generated according to the W3C Verifiable Credentials or Open Badges 3.0 specification. When in doubt, you can contact the issuer to confirm compatibility. <br>
+                    Another indication would be that the credential file (see claim from file section) ends with .json. This is the format that is used for OBv3 credentials.<br>
+                    If you are not sure of the information above, the best way to see if your credential will be accepted is to attempt to add it to the LCW using the instructions in the <a href="userguide.html">User Guide</a>. A non-compliant credential will produce an error message.</p>
+                <h2 class="pb-2">Can I create a PDF or printable version of my credential?</h2>
+                <p class="p-small">Some credentials may allow for you to download a PDF or printable version of your credential. This is determined by whether or not the issuer has decided to include this option when they designed your credential. To see if it is possible to download a credential as a PDF:
                     <ul>
-                        <li class="p-small">Either have already created a Public Link or Learner Credential Wallet will create a Public Link at the same time as Adding to LinkedIn Profile.</li>
-                        <li class="p-small">Have the LinkedIn app installed on your mobile device. Note: LinkedIn requires you to use the mobile app and not the website for this shortcut to work.</li>
-                        <li class="p-small">Be logged in to your LinkedIn profile.</li>
-                        <li class="p-small">Either have already created a public link or create one simultaneously with adding to your LinkedIn Profile.</li>
+                        <li>Select a credential in preview and click the three dots in the top right corner. Select “Share” and then “Create a Public Link.” Select “Create Link” when prompted.</li>
+                        <li>If a PDF version has been made available, the option to download will show as a button labeled. “Download PDF.”</li>
                     </ul>
-                </div>
-
-                <h2 class="mt-4 mb-3 text-center"><a name="add-to-linkedin-not-working"></a>I've tried "Add to LinkedIn Profile" and it's not working.</h2>
-                <p class="p-small">Here are a set of troubleshooting steps to follow:</p>
+                <br>
+                For credential issuers: Issuers can learn more about configuring PDF export <a href="https://github.com/openwallet-foundation-labs/learner-credential-wallet">here</a>.</p>
                 
-                <div style="text-align: left;">
-                    <ul>
-                        <li class="p-small">Make sure the LinkedIn app is installed on your device.</li>
-                        <li class="p-small">Make sure you're logged in to your LinkedIn profile.</li>
-                        <li class="p-small">Make sure you're online and your device has network connectivity.</li>
-                        <li class="p-small">If you just logged in to the LinkedIn App, try "Add to LinkedIn Profile" again from Learner Credential Wallet.</li>
-                    </ul>
-                </div>
-        
-                <h2 class="mt-4 mb-3 text-center"><a name="export-to-pdf"></a>How to export my credentials to PDF?</h2>
-                <p class="p-small">When issuing credentials, you will need to make sure a rendering template (in HTML) is referenced in the renderMethod section of your issued credential in order to tell the wallet how you would your PDF to look like.</p>
-                <p class="p-small">An example of a rendering template (with a QR code of a verified credential) can be found <a href="https://github.com/digitalcredentials/test-files/blob/main/html-templates/rendermethod-qrcode-test.html">here</a>.</p>  
-
-                <h2 class="mt-4 mb-3 text-center">Who do I contact if I have more questions?</h2>
-                <p class="p-small">For questions about the Learner Credential Wallet please email lcw-support -at- mit -dot- edu.</p>
-        
-                <p class="p-small">To learn more about the DCC please visit us at <a href="https://digitalcredentials.mit.edu">digitalcredentials.mit.edu</a>.</p>
 
             </div> <!-- end of text-container -->
 
