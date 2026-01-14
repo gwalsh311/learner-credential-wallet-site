@@ -66,6 +66,11 @@
             outline: none;
             box-shadow: none;
         }
+        
+        /* Force bold text */
+        strong, b {
+            font-weight: 700 !important;
+        }
     </style>
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
@@ -109,10 +114,15 @@
     <header id="Learner Credential Wallet" class="lcw" style="padding-top: 80px;">
         <div class="container mt-5">
             <h1 class="pb-2 text-center">History</h1>
-            <p class="p-small">The Learner Credential Wallet was developed by the <a href="https://digitalcredentials.mit.edu/">Digital Credentials Consortium (DCC)</a>, a global network of postsecondary education institutions collaborating to develop software and promote adoption of W3C Verifiable Credentials and aligned standards like Open Badges 3.0 in higher education.<br><br>
-			The DCC published its foundational <a href="https://digitalcredentials.mit.edu/docs/white-paper-building-digital-credential-infrastructure-future.pdf">white paper</a> in 2020, identifying the need for shared, trusted infrastructure to serve as the framework for a digital credentials ecosystem. At that time, the critical missing component was a digital wallet. With support from the United States Department of Education, the DCC developed the Open Source Learner Credential Wallet specification and reference implementation. The team piloted the wallet at Georgia Institute of Technology, San Jose City College, and College Unbound, allowing them to understand practical wallet usage across a diverse range of institutions.<br><br>
-The LCW was designed primarily as a proof of concept. It serves as an open source, free-to-use tool that demonstrates the overall functionality of the VC ecosystem, rather than an out-of-the-box, full-service product. While the DCC team leads development and maintenance of the source code, the organization encourages others to use it as a model for creating wallet solutions that meet their specific context or use case needs. Arizona State University's Pocket serves as one such example.<br>
-            <br> Beyond the LCW, the DCC has developed other core pieces of VC infrastructure including:</p> 
+            
+            <p class="p-small">The Learner Credential Wallet was developed by the <a href="https://digitalcredentials.mit.edu/">Digital Credentials Consortium (DCC)</a>, a global network of postsecondary education institutions collaborating to develop software and promote adoption of W3C Verifiable Credentials and aligned standards like Open Badges 3.0 in higher education.</p>
+            
+            <p class="p-small">The DCC published its foundational <a href="https://digitalcredentials.mit.edu/docs/white-paper-building-digital-credential-infrastructure-future.pdf">white paper</a> in 2020, identifying the need for shared, trusted infrastructure to serve as the framework for a digital credentials ecosystem. At that time, the critical missing component was a digital wallet. With support from the United States Department of Education, the DCC developed the Open Source Learner Credential Wallet specification and reference implementation. The team piloted the wallet at Georgia Institute of Technology, San Jose City College, and College Unbound, allowing them to understand practical wallet usage across a diverse range of institutions.</p>
+            
+            <p class="p-small">The LCW was designed primarily as a proof of concept. It serves as an open source, free-to-use tool that demonstrates the overall functionality of the VC ecosystem, rather than an out-of-the-box, full-service product. While the DCC team leads development and maintenance of the source code, the organization encourages others to use it as a model for creating wallet solutions that meet their specific context or use case needs. Arizona State University's Pocket serves as one such example.</p>
+            
+            <p class="p-small">Beyond the LCW, the DCC has developed other core pieces of VC infrastructure including:</p>
+            
             <ul class="p-small">
                 <li><b>Issuer microservices</b>: Software for entities to issue VCs, organized into modular, customizable components</li>
                 <li><b>Verification software</b>: VerifierPlus website that the DCC hosts for verifying credentials</li>
@@ -120,15 +130,16 @@ The LCW was designed primarily as a proof of concept. It serves as an open sourc
             </ul>
 
             <!-- Page Footer -->
-                    <footer>
-                      <p class="footer-text text-center">
-                          Copyright 2022-2025, Massachusetts Institute of Technology</p>
-                      <p class="footer-text text-center">
-				<a href="https://digitalcredentials.mit.edu/">Digital Credentials Consortium</a></p>
-                        <p class="footer-text text-center">
-				<a href="terms.html">Terms and Conditions of Use</a> • <a href="privacy.html">Privacy Policy</a> • <a href="https://accessibility.mit.edu/">Accessibility</a> • <a href="https://github.com/digitalcredentials/learner-credential-wallet">View on Github</a></p></footer> <!-- end of page footer -->
-        </div> <!-- end of container -->
-    </header> <!-- end of header -->
-    <!-- end of header -->
+            <footer>
+                <p class="footer-text text-center">Copyright 2022-2025, Massachusetts Institute of Technology</p>
+                <p class="footer-text text-center"><a href="https://digitalcredentials.mit.edu/">Digital Credentials Consortium</a></p>
+                <p class="footer-text text-center"><a href="terms.html">Terms and Conditions of Use</a> • <a href="privacy.html">Privacy Policy</a> • <a href="https://accessibility.mit.edu/">Accessibility</a> • <a href="https://github.com/digitalcredentials/learner-credential-wallet">View on Github</a></p>
+            </footer>
+        </div>
+    </header>
 
-                
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
