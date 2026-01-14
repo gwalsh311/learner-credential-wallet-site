@@ -110,7 +110,21 @@ a:hover {
 	color: white;
 }
 
+/* Force bold text */
+strong, b {
+    font-weight: bold;
+}
 
+.title {
+	font-weight: bold;
+	font-family: 'Rubik', sans-serif;
+	font-size: 2.9rem;
+	line-height: 2.75rem;
+	letter-spacing: -0.7px;
+	color: #ffffff;
+}
+
+/* rest of your CSS continues... */
 /*****************/
 /*    Learner Credential Wallet Page    */
 /*****************/
@@ -170,9 +184,6 @@ a:hover {
   left: 0;
 }
 
-/* Force bold text */
-strong, b {
-    font-weight: bold;
-}
+
 
 
