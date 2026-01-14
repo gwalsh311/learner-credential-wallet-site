@@ -170,4 +170,9 @@ a:hover {
   left: 0;
 }
 
+/* Force bold text */
+strong, b {
+    font-weight: bold;
+}
+
 
