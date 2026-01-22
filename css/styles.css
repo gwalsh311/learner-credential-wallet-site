@@ -21,7 +21,7 @@ html {
 
 body, p {
 	color: #ffffff; 
-	background-color: #234467;  /* Changed from #1f2936 */
+	background-color: #234467; 
 	font: 400 1rem/1.625rem "Roboto", sans-serif;
 	font-size: 1.25rem;
 	line-height: 1.7rem;
@@ -223,6 +223,7 @@ strong, b {
   position: absolute;
   left: 0;
 }
+
 
 
 
