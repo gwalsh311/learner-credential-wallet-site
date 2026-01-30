@@ -48,11 +48,22 @@
             text-decoration: none;
         }
         
-        /* Ensure FAQ questions are bold */
+        /* Make FAQ questions stand out */
         .faq-question {
-            font-weight: 700;
+            font-weight: 900 !important; /* Extra bold */
+            font-size: 1.1em; /* Slightly larger */
+            color: #2c3e50; /* Darker color */
             margin-top: 1.5rem;
             margin-bottom: 0.5rem;
+        }
+        
+        /* Make answer text lighter to contrast with questions */
+        .text-container p:not(.faq-question) {
+            font-weight: 400 !important; /* Normal weight */
+        }
+        
+        .text-container ul li {
+            font-weight: 400 !important; /* Normal weight for list items */
         }
     </style>
 </head>
