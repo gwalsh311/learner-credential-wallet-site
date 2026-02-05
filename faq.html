@@ -48,22 +48,27 @@
             text-decoration: none;
         }
         
-        /* Make FAQ questions stand out */
+        /* Make all text white */
+        .text-container p,
+        .text-container ul li,
+        .text-container a {
+            color: #ffffff !important;
+        }
+        
+        /* Make FAQ questions bold */
         .faq-question {
-            font-weight: 900 !important; /* Extra bold */
-            font-size: 1.1em; /* Slightly larger */
-            color: #2c3e50; /* Darker color */
+            font-weight: 700 !important; /* Bold */
             margin-top: 1.5rem;
             margin-bottom: 0.5rem;
         }
         
-        /* Make answer text lighter weight to contrast with questions */
+        /* Make answer text normal weight */
         .text-container > p:not(.faq-question) {
-            font-weight: 300 !important; /* Lighter weight */
+            font-weight: 400 !important; /* Normal weight */
         }
         
         .text-container ul li {
-            font-weight: 300 !important; /* Lighter weight for list items */
+            font-weight: 400 !important; /* Normal weight for list items */
         }
     </style>
 </head>
