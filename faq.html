@@ -62,14 +62,22 @@
         color: #ffffff !important;
 }
 
-/* Add hover effect to text links */
+/* Make all text white */
+.text-container p,
+.text-container ul li,
 .text-container a {
-    text-decoration: underline;
-    transition: all 0.3s ease;
+    color: #ffffff !important;
+}
+
+/* Add hover effect to text links - matching navbar style */
+.text-container a {
+    text-decoration: none;
+    transition: all 0.3s;
 }
 
 .text-container a:hover {
     color: #429EA6 !important;
+    transform: scale(1.05);
     text-decoration: none;
 }
 
