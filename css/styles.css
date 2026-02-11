@@ -21,12 +21,12 @@ html {
 
 body, p {
 	color: #ffffff; 
-	background-color: #1f2936;  /* Changed from #234467 */
-	font: 250 1rem/1.625rem "Roboto", sans-serif;
+	background-color: #1f2936;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300 !important;  
 	font-size: 1.23rem;
 	line-height: 1.7rem;
 	text-align: left;
-	font-weight: 250;
 }
 
 .title {
@@ -227,6 +227,7 @@ strong, b {
   position: absolute;
   left: 0;
 }
+
 
 
 
